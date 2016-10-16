@@ -1,3 +1,6 @@
 $(document).ready(function() {
-  $("#text").hide(1000);
+  $(".cli").click(function () {
+
+  	$(".text1").css('display','block')
+  })
 });
