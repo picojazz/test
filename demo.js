@@ -1,6 +1,9 @@
 $(document).ready(function() {
-  $(".cli").click(function () {
+ $(".hide").click(function () {
+ 	$("p").hide("slow");
+ })
+  $(".show").click(function () {
+ 	$("p").show("slow");
+ }) 	
 
-  	$(".text1").css('display','block')
-  })
 });
